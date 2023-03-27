@@ -33,7 +33,7 @@
         <span class="title">User Insert</span>
       </div>
       <div class="bot-gap">
-        <form method="POST" action="${pageContext.request.contextPath}/teachersusersapp/insert">
+        <form method="POST" action="${pageContext.request.contextPath}/teachersusersapp/users/insert">
           <input name="username" type="text" value="${requestScope.insertedUserDB.username}"
                  class="insert rounded" placeholder="Username" autofocus/><br>
           <input name="password" type="text" value="${requestScope.insertedUserDB.password}"
