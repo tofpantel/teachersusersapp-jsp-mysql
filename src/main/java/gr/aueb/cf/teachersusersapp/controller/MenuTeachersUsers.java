@@ -14,7 +14,7 @@ public class MenuTeachersUsers extends HttpServlet{
                       HttpServletResponse response)
         throws ServletException, IOException{
         response.setContentType("text/html; charset=UTF-8");
-        request.getRequestDispatcher("/teachersusersapp/teachersusersmenu.jsp").forward(request, response);
+        request.getRequestDispatcher("/teachersusersmenu.jsp").forward(request, response);
 
     }
 
